@@ -6,6 +6,9 @@ cmake-build-*/
 .deps/
 build-manual/
 
+# release artifacts produced by packaging (upload these, do not commit them)
+dist/
+
 # selftest binaries
 mb_selftest
 main
