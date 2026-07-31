@@ -1,0 +1,19 @@
+# CMake build tree
+build/
+cmake-build-*/
+
+# scripts/bootstrap_build.sh output: fetched sources and objects
+.deps/
+build-manual/
+
+# selftest binaries
+mb_selftest
+main
+
+# IDE state. CLion writes editor preferences, plugin/theme settings and absolute
+# paths in here — personal to your machine, not part of the project.
+.idea/
+*.iml
+.vscode/
+
+.DS_Store
