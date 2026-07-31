@@ -1,4 +1,4 @@
-# MandelbrotBenchmark
+# Mandelbrot Benchmark
 
 A real-time Mandelbrot renderer built to measure, not to look pretty: it runs the
 same escape-time kernel through a scalar C++ loop, a compiler-intrinsics SIMD
